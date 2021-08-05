@@ -10,11 +10,13 @@ body {
 }
 header {
   display: flex;
+  align-items: center;
+  margin-top: 18px;
 }
 
 .logo {
   display: flex;
-  width: 50%;
+  width: 100%;
   align-items: center;
 }
 
@@ -40,8 +42,15 @@ header ul li {
 
 .logo h2 {
   font-family: "Great Vibes", cursive;
-  font-size: 25px;
+  font-size: 65px;
   font-weight: bold;
+  margin: 0;
+}
+
+.logo p {
+  margin: 0;
+  color: grey;
+  font-size: 14px;
 }
 
 .line {
@@ -55,7 +64,26 @@ header ul li {
 .title {
   display: flex;
   justify-content: space-between;
+  margin-top: 29px;
 }
+
+.title h1 {
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 0;
+  font-size: 39px;
+}
+
+.title p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.title div:nth-child(2) {
+  position: relative;
+  top: 66px;
+  color: #999;
+}
+
 .list {
   display: flex;
   background-image: url("../img/list-bg.png");
@@ -104,7 +132,6 @@ footer {
 footer img {
   position: absolute;
   top: -19px;
-
   box-shadow: 7px 0px #fff, -7px 0 #fff;
 }
 
@@ -118,7 +145,11 @@ footer img {
 }
 .venna {
   display: flex;
-  width: 85%;
+  width: 80%;
+}
+
+.venna p {
+  color: #999;
 }
 
 .venna img {
@@ -133,9 +164,9 @@ footer p {
 }
 
 a {
-  padding: 10px;
+  padding: 15px;
   background-color: orangered;
   color: white;
   position: relative;
-  top: 20px;
+  top: 60px;
 }
